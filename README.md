@@ -4,9 +4,8 @@
 Create a DevOps project and manage it using Git and GitHub, following good version control practices.
 
 🔧 Tools You’ll Use
-Git (installed locally)
-
-GitHub account
+   Git (installed locally)
+   GitHub account
 
 1.Install Git
   sudo apt-get install git
@@ -46,9 +45,11 @@ GitHub account
 6. Add .gitignore Rules
 
    *.log
+   
 node_modules/
+
 .env
-7. Commit Your Files
+8. Commit Your Files
    
 git add .
 git commit -m "Initial commit with README and .gitignore"
